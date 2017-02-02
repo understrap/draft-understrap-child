@@ -1,0 +1,37 @@
+body {
+background-color:$gray-lightest;
+}
+
+.entry-footer, .entry-meta {
+	font-size:.875em;
+}
+
+article {
+	padding-bottom: ($grid-gutter-width-base/2);
+	margin-bottom: ($grid-gutter-width-base/2);
+	border-bottom:1px solid $gray-lighter;
+}
+
+aside.widget, .sticky {
+	border:1px solid $gray-lighter;
+	padding: ($grid-gutter-width-base/2);
+	margin-bottom: ($grid-gutter-width-base/2);
+	background-color:$gray-lightest;
+}
+
+.wrapper {
+	background-color: $white;
+}
+
+#wrapper-footer.wrapper {
+	background-color:transparent;
+}
+
+.entry-title, .entry-title a {
+	color:$gray-dark;
+}
+
+p.intro-content {
+	font-size: 1.33em;
+	color:$black;
+}
