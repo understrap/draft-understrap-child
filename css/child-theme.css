@@ -9268,3 +9268,6 @@ img.wp-post-image {
 
 .navbar-brand a:hover {
   text-decoration: none; }
+
+#wrapper-static-hero {
+  border-top: 1px solid rgba(255, 255, 255, 0.2); }
