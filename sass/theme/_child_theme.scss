@@ -12,7 +12,7 @@ article {
 	border-bottom:1px solid $gray-lighter;
 }
 
-aside.widget, .sticky {
+#content aside.widget, .sticky {
 	border:1px solid $gray-lighter;
 	padding: ($grid-gutter-width-base/2);
 	margin-bottom: ($grid-gutter-width-base/2);
@@ -35,3 +35,20 @@ p.intro-content {
 	font-size: 1.33em;
 	color:$black;
 }
+
+img.wp-post-image {
+	padding: ($grid-gutter-width-base/3) 0;
+	margin: ($grid-gutter-width-base/3) 0;
+	border-bottom:1px solid $gray-lighter;
+	border-top:1px solid $gray-lighter;
+}
+
+.navbar-brand {
+	a {
+		color:inherit;
+	}
+	a:hover {
+		text-decoration:none;
+	}
+}
+

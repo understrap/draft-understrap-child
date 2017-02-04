@@ -48,7 +48,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 						<?php if ( is_front_page() && is_home() ) : ?>
 
-							<h1 class="navbar-brand mb-0"><?php bloginfo( 'name' ); ?></h1>
+							<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 							
 						<?php else : ?>
 
@@ -73,6 +73,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'walker'          => new WP_Bootstrap_Navwalker(),
 					)
 				); ?>
+
+				<?php if ( is_active_sidebar( 'navbar-right' ) ) : ?><div class="navbar-right-widget"><?php dynamic_sidebar( 'navbar-right' ); ?></div><?php endif; ?>
 			<?php if ( 'container' == $container ) : ?>
 			</div><!-- .container -->
 			<?php endif; ?>

@@ -9238,7 +9238,7 @@ article {
   margin-bottom: 40px;
   border-bottom: 1px solid #eceeef; }
 
-aside.widget, .sticky {
+#content aside.widget, .sticky {
   border: 1px solid #eceeef;
   padding: 40px;
   margin-bottom: 40px;
@@ -9256,3 +9256,15 @@ aside.widget, .sticky {
 p.intro-content {
   font-size: 1.33em;
   color: #000; }
+
+img.wp-post-image {
+  padding: 26.66667px 0;
+  margin: 26.66667px 0;
+  border-bottom: 1px solid #eceeef;
+  border-top: 1px solid #eceeef; }
+
+.navbar-brand a {
+  color: inherit; }
+
+.navbar-brand a:hover {
+  text-decoration: none; }

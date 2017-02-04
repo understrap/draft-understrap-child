@@ -37,3 +37,27 @@ function wpdocs_custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 
+
+
+/*********
+* Adding extra widgets on top of the understrap defaults
+************/
+if ( ! function_exists( 'draft_widgets_init' ) ) {
+    /**
+     * Initializes themes widgets.
+     */
+    function draft_widgets_init() {
+        register_sidebar( array(
+            'name'          => __( 'Navbar right', 'understrap' ),
+            'id'            => 'navbar-right',
+            'description'   => 'Widget area in the top right navbar corner',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        ) );
+
+    }
+} // endif function_exists( 'understrap_widgets_init' ).
+add_action( 'widgets_init', 'draft_widgets_init' );
+
