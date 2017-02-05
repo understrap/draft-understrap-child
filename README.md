@@ -1,5 +1,8 @@
-# understrap-child
+# DRAFT UnderStrap child theme
 Basic Child Theme for UnderStrap Theme Framework: https://github.com/holger1411/understrap
+
+# Screenshot
+![Draft Screenshot](https://static-2.gumroad.com/res/gumroad/3347149435198/asset_previews/a9cce1c28b2152ce06d347bd65ad1c40/retina/draft_understrap_child_screen.jpg )
 
 ## How it works
 It shares with the parent theme all PHP files and adds its own functions.php on top of the UnderStrap parent themes functions.php.
@@ -16,7 +19,7 @@ Uses the Enqueue method the load and sort the CSS file the right way instead of 
 2. Just upload the understrap-child folder to your wp-content/themes directory
 3. Go into your WP admin backend 
 4. Go to "Appearance -> Themes"
-5. Activate the UnderStrap Child theme
+5. Activate the DRAFT UnderStrap Child theme
 
 ## Editing
 Add your own CSS styles to /sass/theme/_child_theme.scss
