@@ -56,3 +56,13 @@ img.wp-post-image {
 	border-top:1px solid rgba(255,255,255,.2);
 }
 
+.wrapper.bg-primary.text-white .btn-primary, .navbar-inverse.bg-primary .btn-primary{
+	background-color:#fff;
+	color:$brand-primary;
+}
+
+.wrapper.bg-primary.text-white a{
+	color:#fff;
+	border-bottom:1px dotted #fff;
+}
+

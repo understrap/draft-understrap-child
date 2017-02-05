@@ -9271,3 +9271,11 @@ img.wp-post-image {
 
 #wrapper-static-hero {
   border-top: 1px solid rgba(255, 255, 255, 0.2); }
+
+.wrapper.bg-primary.text-white .btn-primary, .navbar-inverse.bg-primary .btn-primary {
+  background-color: #fff;
+  color: #00a9e0; }
+
+.wrapper.bg-primary.text-white a {
+  color: #fff;
+  border-bottom: 1px dotted #fff; }
