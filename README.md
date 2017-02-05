@@ -1,8 +1,9 @@
 # DRAFT UnderStrap child theme
-Basic Child Theme for UnderStrap Theme Framework: https://github.com/holger1411/understrap
+Basic Child Theme for UnderStrap Theme Framework: https://understrap.com
 
 # Demo & Screenshot
 Live Demo: https://understrap.com/demos/draft/
+
 ![Draft Screenshot](https://static-2.gumroad.com/res/gumroad/3347149435198/asset_previews/a9cce1c28b2152ce06d347bd65ad1c40/retina/draft_understrap_child_screen.jpg )
 
 ## How it works
