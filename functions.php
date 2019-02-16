@@ -60,4 +60,3 @@ if ( ! function_exists( 'draft_widgets_init' ) ) {
     }
 } // endif function_exists( 'understrap_widgets_init' ).
 add_action( 'widgets_init', 'draft_widgets_init' );
-
