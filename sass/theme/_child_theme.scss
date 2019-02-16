@@ -1,5 +1,5 @@
 body {
-background-color:$gray-lightest;
+background-color:$gray-200;
 }
 
 .entry-footer, .entry-meta {
@@ -9,14 +9,14 @@ background-color:$gray-lightest;
 article {
 	padding-bottom: ($grid-gutter-width-base/2);
 	margin-bottom: ($grid-gutter-width-base/2);
-	border-bottom:1px solid $gray-lighter;
+	border-bottom:1px solid $gray-300;
 }
 
 #content aside.widget, .sticky {
-	border:1px solid $gray-lighter;
+	border:1px solid $gray-300;
 	padding: ($grid-gutter-width-base/2);
 	margin-bottom: ($grid-gutter-width-base/2);
-	background-color:$gray-lightest;
+	background-color:$gray-200;
 }
 
 .wrapper {
@@ -28,7 +28,7 @@ article {
 }
 
 .entry-title, .entry-title a {
-	color:$gray-dark;
+	color:$gray-700;
 }
 
 p.intro-content {
@@ -39,8 +39,8 @@ p.intro-content {
 img.wp-post-image {
 	padding: ($grid-gutter-width-base/3) 0;
 	margin: ($grid-gutter-width-base/3) 0;
-	border-bottom:1px solid $gray-lighter;
-	border-top:1px solid $gray-lighter;
+	border-bottom:1px solid $gray-300;
+	border-top:1px solid $gray-300;
 }
 
 .navbar-brand {
@@ -58,11 +58,10 @@ img.wp-post-image {
 
 .wrapper.bg-primary.text-white .btn-primary, .navbar-inverse.bg-primary .btn-primary{
 	background-color:#fff;
-	color:$brand-primary;
+	color:$primary;
 }
 
 .wrapper.bg-primary.text-white a{
 	color:#fff;
 	border-bottom:1px dotted #fff;
 }
-
